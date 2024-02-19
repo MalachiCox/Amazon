@@ -1,0 +1,147 @@
+* {
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    font-size: 12px;
+    line-height: 20px;
+    color: black;
+    font-family: Arial,sans-serif;
+    padding: 0;
+    margin: 0;
+    background: white;
+}
+
+.container {
+    width: 350px;
+    margin: 0 auto;
+    border: 1px solid lightgrey;
+    margin-top: 100px;
+}
+
+.box {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.email {
+    padding-bottom: 20px;
+}
+
+.password {
+    padding-bottom: 20px;
+}
+
+.Password {
+    display: inline-block;
+    margin-right: 45%;
+}
+
+.forgot {
+    display: inline-block;
+    color: #809fff;
+    font-size: 14px;
+}
+
+.input {
+    width: 100%;
+    font-size: 14px;
+    height: 30px;
+    border: 1px solid grey;
+    padding-left: 5px;
+}
+
+label {
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.button {
+    display: block;
+    background-color: #f7c548;
+    width: 100%;
+    font-size: 100%;
+    height: 30px;
+    border: 1px solid grey;
+}
+
+.button:hover {
+    background-color: #ccb53b;
+}
+
+.continue {
+    padding-bottom: 20px;
+}
+
+.arrow-left {
+    display: inline-block;
+    width: 0; 
+    height: 0; 
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent; 
+    padding-bottom: 0;
+    border-left:3px solid #809fff; 
+    margin-left: 15px;
+}
+
+.need-help {
+    display: inline;
+    width: 100%;
+    font-size: 14px;
+    height: 30px;
+    padding-left: 2px;
+    color: #809fff;
+    font-size: 14px;
+}
+
+.new {
+    display: flex;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.new-to {
+    display: flex;
+    width: 300px;
+    margin-top: -3px;
+    justify-content: center;
+}
+
+.create-button {
+    display: block;
+    background-color: lightgrey;
+    width: 300px;
+    margin: 0 auto;
+    font-size: 100%;
+    height: 30px;
+    border: 1px solid grey;
+}
+
+.create-button:hover {
+    background-color: grey;
+}
+
+.footer-line {
+    margin-top: 50px;
+}
+
+.foot-container {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.conditions, .privacy, .help {
+    display: inline;
+    color: #809fff;
+    margin-inline: 15px;
+}
+
+.conditions:hover, .privacy:hover, .help:hover, .need-help:hover, .forgot:hover {
+    text-decoration: underline;
+}
